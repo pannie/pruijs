@@ -1,0 +1,21 @@
+@import "header.css";
+@import "spinningpanda.css";
+@import "maincontent.css";
+@import "footer.css";
+
+* {
+    background-color: #84819c;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height:100%;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 6fr 2fr 1fr;
+}
+
+

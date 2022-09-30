@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+}
+
+.spinningpanda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinningpanda img {
+    animation: rotation 8s infinite linear;
+    max-width: 70%;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+footer {
+    text-align: center;
+}
+

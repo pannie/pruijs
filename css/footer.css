@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 50px;
+    font-family: Baghdad;
+    position: fixed;
+    bottom: 0;
+}
